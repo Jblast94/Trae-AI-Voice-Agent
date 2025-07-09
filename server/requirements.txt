@@ -1,0 +1,41 @@
+# Core FastAPI and web server dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+websockets==12.0
+python-multipart==0.0.6
+
+# Machine Learning and AI
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
+transformers==4.35.2
+huggingface-hub==0.19.4
+bitsandbytes==0.41.3
+accelerate==0.24.1
+
+# Image and video processing
+Pillow==10.1.0
+opencv-python==4.8.1.78
+numpy==1.24.3
+
+# Audio processing
+speech-recognition==3.10.0
+pyaudio==0.2.11
+
+# Utilities
+requests==2.31.0
+aiofiles==23.2.1
+python-dotenv==1.0.0
+pydantic==2.5.0
+
+# Development and monitoring
+psutil==5.9.6
+logging==0.4.9.6
+
+# Optional: For H100 optimization
+# flash-attn==2.3.4  # Uncomment for H100 instances
+# xformers==0.0.22   # Uncomment for memory optimization
+
+# Optional: For advanced features
+# openai-whisper==20231117  # For speech-to-text
+# TTS==0.20.6              # For text-to-speech
